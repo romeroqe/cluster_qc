@@ -1,9 +1,9 @@
 # cluster_qc
 <a href="https://github.com/romeroqe/cluster_qc"><img src="https://shields.io/github/v/release/romeroqe/cluster_qc" alt="Release"></a>
 <a href="http://creativecommons.org/licenses/by/4.0/"><img src="https://shields.io/github/license/romeroqe/cluster_qc" alt="License"></a>
-<a href="https://doi.org/10.5281/zenodo.4595803"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4595803.svg" alt="DOI"></a>
+<a href="https://doi.org/10.5281/zenodo.4595802"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4595802.svg" alt="DOI"></a>
 
-It's a package that filters profiles using a point-in-polygon algorithm, downloads source files, generates diagrams, and filters data in RTQC through cluster analysis.
+Argo data goes through two quality processes, in real time and in delayed mode. This library contains the code used to develop the methodology of a publication that is currently under review, filters profiles within a given irregular polygon and offers two filtering methods to discard only the real time quality control data that present salinity drifts, this allows researchers to have a greater amount of data within the study area of their interest in a matter of minutes, as opposed to waiting for quality control in delayed mode that takes up to 12 months to complete. In addition, it provides tools to facilitate the download of the source files of this data and to generate diagrams.
 
 
 ## Installation
