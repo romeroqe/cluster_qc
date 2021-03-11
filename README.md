@@ -1,5 +1,10 @@
 # cluster_qc
+<a href="https://github.com/romeroqe/cluster_qc"><img src="https://shields.io/github/v/release/romeroqe/cluster_qc" alt="Release"></a>
+<a href="http://creativecommons.org/licenses/by/4.0/"><img src="https://shields.io/github/license/romeroqe/cluster_qc" alt="License"></a>
+<a href="https://doi.org/10.5281/zenodo.4595803"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4595803.svg" alt="DOI"></a>
+
 It's a package that filters profiles using a point-in-polygon algorithm, downloads source files, generates diagrams, and filters data in RTQC through cluster analysis.
+
 
 ## Installation
 
@@ -8,6 +13,8 @@ To install this package, first clone it on your computer or download the zip fil
 ```
 pip install .
 ```
+
+<a href="https://www.gnu.org/software/wget/">wget</a> and <a href="https://rsync.samba.org/">rsync</a> are required for file download.
 
 ## Demos
 
