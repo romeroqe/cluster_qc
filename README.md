@@ -27,6 +27,12 @@ To see package demos go to the `demo` folder and run the files:
 
 The demos files must be executed in order. Downloading the profile source files may take some time, depending on your Internet connection.
 
+## How to cite
+
+If you use `cluster_qc`, please include a reference to the following:
+
+> Romero, E., Tenorio-Fernandez, L., Castro, I., and Castro, M.: Filtering method based on cluster analysis to avoid salinity drifts and recover Argo data in less time, Ocean Sci., 17, 1273–1284, https://doi.org/10.5194/os-17-1273-2021, 2021.
+
 ## Argo data acknowledgment
 These data were collected and made freely available by the International Argo Program and the national programs that contribute to it. ([http://www.argo.ucsd.edu](http://www.argo.ucsd.edu), [http://argo.jcommops.org](http://argo.jcommops.org)). The Argo Program is part of the Global Ocean Observing System.
 
