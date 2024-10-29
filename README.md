@@ -29,8 +29,9 @@ The demos files must be executed in order. Downloading the profile source files 
 
 ## How to cite
 
-If you use `cluster_qc`, please include a reference to the following:
-
+> [!IMPORTANT]
+> _If you use this repository, please include a reference to the following:_
+> 
 > Romero, E., Tenorio-Fernandez, L., Castro, I., and Castro, M.: Filtering method based on cluster analysis to avoid salinity drifts and recover Argo data in less time, Ocean Sci., 17, 1273–1284, https://doi.org/10.5194/os-17-1273-2021, 2021.
 
 ## Argo data acknowledgment
