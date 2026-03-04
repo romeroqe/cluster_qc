@@ -1,11 +1,33 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
-setup(name='cluster_qc-romeroqe',
-      version='1.0',
-      description='A package that filters profiles using a point-in-polygon algorithm, downloads source files, generates charts, and filters data in RTQC through cluster analysis.',
-      url='http://github.com/romeroqe/cluster_qc',
-      author='Emmanuel Romero',
-      author_email='dev@romeroqe.com',
-      license='Creative Commons Attribution 4.0 International License.',
-      packages=['cluster_qc'],
-      zip_safe=False)
+setup(
+    name="cluster_qc",
+    version="2.0.0",
+    author="Emmanuel Romero",
+    author_email="romeroqe@gmail.com",
+    description=(
+        "A package for spatial filtering of Argo profiles using a "
+        "point-in-polygon algorithm and cluster-based quality control analysis."
+    ),
+    long_description=open("README.md", encoding="utf-8").read(),
+    long_description_content_type="text/markdown",
+    url="https://github.com/romeroqe/cluster_qc",
+    packages=find_packages(),
+    install_requires=[
+      "numpy",
+      "pandas",
+      "matplotlib",
+      "cartopy",
+      "gsw",
+      "xarray",
+      "scikit-learn",
+      "tqdm",
+      "shapely"
+    ],
+    license="CC-BY-4.0",
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: Other/Proprietary License",
+        "Operating System :: OS Independent",
+    ],
+)

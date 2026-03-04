@@ -11,21 +11,17 @@ Argo data goes through two quality processes, in real time and in delayed mode. 
 To install this package, first clone it on your computer or download the zip file. Then access to its root folder and install it with the command:
 
 ```
-pip install .
+pip install cluster_qc
 ```
-
-<a href="https://www.gnu.org/software/wget/">wget</a> and <a href="https://rsync.samba.org/">rsync</a> are required for file download.
 
 ## Demos
 
 To see package demos go to the `demo` folder and run the files:
 
-- demo1.py: Download the list of profiles and filter them using the point-in-polygon algorithm, with the polygon of the Exclusive Economic Zone of Mexico.
-- demo2.py: Download the list of profiles, filter them using the point-in-polygon algorithm, download the source files of these profiles and extract their data from NetCDF files to CSV, with the polygon of a zone off Baja California Sur, Mexico.
-- demo3.py: Plot six diagrams of the data from a hydrographic autonomous profiler.
+- demo1.py: Download the list of profiles and filter them using the point-in-polygon algorithm.
+- demo2.py: Extract data from NetCDF file profiles and convert to CSV.
+- demo3.py: Visualizing Hydrographic Profiles from an Argo Float.
 - demo4.py: Perform group analysis on the data to filter the data in RTQC that contains the same patterns as the DMQC data.
-
-The demos files must be executed in order. Downloading the profile source files may take some time, depending on your Internet connection.
 
 ## How to cite
 

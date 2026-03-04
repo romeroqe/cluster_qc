@@ -1,10 +1,7 @@
-from .data import download_data
-from .data import filter_point_in_polygon
-from .data import get_data_from_nc
+from .data import dataframe_to_polygon
+from .data import extract_profile_data
 from .data import get_data_from_source
-from .data import get_index
 from .data import get_profiles_within_polygon
-from .data import is_inside_the_polygon
 
 from .filters import cluster_analysis
 
