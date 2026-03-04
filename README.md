@@ -11,7 +11,7 @@ Argo data goes through two quality processes, in real time and in delayed mode. 
 To install this package, first clone it on your computer or download the zip file. Then access to its root folder and install it with the command:
 
 ```
-pip install cluster_qc
+pip install cluster-qc
 ```
 
 ## Demos
